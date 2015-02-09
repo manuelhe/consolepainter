@@ -1,0 +1,23 @@
+{
+  "name": "manuelhe/consolepainter",
+  "description": "Console Painter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ManuelHerrera",
+      "email": "manuel.he@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/console": "2.4.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "ManuelHe\\Command\\": "app/src/"
+    }
+  },
+  "config":{
+    "vendor-dir": "app/vendor"
+  }
+}
